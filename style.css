@@ -1,0 +1,244 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Eczar:800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar / header */
+.bg-dark {
+    background-color: #000 !important;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lato';
+}
+
+.navbar-brand {
+    font-family: 'Pacifico';
+    font-size: 35px;
+    color: lightcoral !important;
+}
+
+.nav-link {
+    color: rgb(211, 211, 211) !important;
+    margin: 15px;
+    font-size: 18px;
+    font-family: 'Roboto Condensed';
+}
+
+.nav-link:hover {
+    color: lightcoral !important;
+}
+
+.active .nav-link {
+    color: #00E8E8 !important;
+}
+
+.menu-right-btn {
+    color: white;
+    padding: 13px 46px;
+    margin-right: 4%;
+    background-color: transparent;
+    transition: all 300ms ease-in;
+}
+
+.menu-right-btn:hover {
+    color: white;
+    background-color: #00E8E8;
+}
+
+/* Main */
+
+.site-content {
+    background: url(./Images/main-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+}
+
+.site-title,
+.site-desc {
+    color: white;
+    font-family: 'Righteous';
+    text-shadow: 1px 3px #000;
+}
+
+.site-desc {
+    font-size: 25px;
+}
+
+.site-title {
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size: 50px;
+}
+
+.btns {
+    margin: 10px auto 40%;
+}
+
+.site-btn1 {
+    background-color: black;
+    color: white;
+}
+
+.site-btn2 {
+    background-color: white;
+}
+
+/* Section 1 */
+
+.section-1 {
+    background: url(./Images/section1-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+    padding-bottom: 50px;
+}
+
+.section-1 .header-1 {
+    padding-top: 8%;
+    font-weight: 800;
+}
+
+.section-1 .header-2 {
+    margin-bottom: 5%;
+    font-size: 39px;
+}
+
+.section-1 p {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    color: rgba(0, 0, 0, 0.59);
+    font-size: 20px;
+}
+
+/* Card Animation */
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.1);
+}
+
+.card {
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background: #000 !important;
+    margin: 0 auto;
+}
+
+.card:hover {
+    box-shadow: 4px 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: #00E8E8;
+}
+
+.card-text {
+    margin: 15px auto;
+    color: white;
+}
+
+/* Section-2 */
+
+.section-2 {
+    background: url(./Images/scetion2-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 80px;
+}
+
+.heading-1 {
+    font-family: 'Righteous';
+    width: 80%;
+}
+
+.section-2 .para {
+    width: 80%;
+    font-family: 'Ubuntu';
+    margin: 2% 0 3%;
+}
+
+.section-2 button {
+    width: 25%;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.section-2 i {
+    color: red;
+    font-size: 20px;
+}
+
+/* Section 3 */
+
+.section-3 {
+    padding: 6% 0;
+    background: url(./Images/section3-bg.jpg);
+    background-position: bottom;
+}
+
+.section-3 i {
+    color: lightcoral;
+}
+
+.section-3 h3 {
+    font-family: 'Roboto Condensed';
+    font-weight: bolder;
+}
+
+/* Section-4 */
+
+.section-4 {
+    background-image: url(./Images/section4-bg.jpg);
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.section-4 .row button {
+    margin: 5% 0;
+}
+
+/* Footer */
+
+.section-5 span {
+    color: lightcoral;
+}
+
+footer {
+    color: rgb(211, 211, 211);
+}
+
+.fa-facebook-f:hover {
+    color: #3b5998;
+}
+
+.fa-instagram:hover {
+    color: lightcoral;
+}
+
+.fa-twitter:hover {
+    color: rgb(29, 161, 242);
+}
+
+.fa-youtube:hover {
+    color: #c4302b;
+}
